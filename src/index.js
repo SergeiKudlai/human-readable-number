@@ -51,7 +51,7 @@ module.exports = function toReadable(number) {
 
 
     const getNumbers = (value) => {
-        for (key in dataNumbersTexts) {
+        for (const key in dataNumbersTexts) {
             if (key === value) return dataNumbersTexts[key];
         }
 
@@ -60,7 +60,7 @@ module.exports = function toReadable(number) {
 
     const getTwoNumbers = (value) => {
 
-        for (key in dataTenthsNumbers) {
+        for (const key in dataTenthsNumbers) {
             if (key === value) return dataTenthsNumbers[key];
         }
 
@@ -82,7 +82,7 @@ module.exports = function toReadable(number) {
 
     const getThreeNumbers = (value) => {
 
-        for (key in dataHundredthsNumbers) {
+        for (const key in dataHundredthsNumbers) {
             if (key === value) return dataHundredthsNumbers[key];
         }
 
